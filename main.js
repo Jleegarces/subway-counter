@@ -8,6 +8,11 @@ function increment () {
 
 }
 
-function save () {
-  console.log(count)
+function decrement () {
+  count = count - 1;
+  countEl.innerText = count;
 }
+
+// function save () {
+//   console.log(count)
+// }
