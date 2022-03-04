@@ -13,7 +13,7 @@ function increment () {
 function decrement () {
   count -= 1;
   if (count < 0) {
-    return countEl.innerText = 'error'
+    countEl.innerText = 'error'
   } else {
     countEl.textContent = count;
 
@@ -25,7 +25,10 @@ function decrement () {
 function save () {
   let current = count + " - ";
   if (count < 0) {
-    return saveEl.textContent = 'error';
+    saveEl.textContent = 'error';
+    saveEl.textContent = 'Previous entries:  '
+    
+    
   } else {
     saveEl.textContent += current;
     countEl.textContent = 0;
