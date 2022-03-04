@@ -38,3 +38,8 @@ button {
   background: darkgreen;
   color: white;
 }
+
+#save-btn {
+  background-color: goldenrod;
+  color: white;
+}
