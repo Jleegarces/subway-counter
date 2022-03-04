@@ -6,7 +6,7 @@ let saveEl = document.getElementById('save-el')
 
 function increment () {
   count += 1; 
-  countEl.innerText = count;
+  countEl.textContent = count;
 
 }
 
@@ -15,10 +15,10 @@ function decrement () {
   if (count < 0) {
     return countEl.innerText = 'error'
   } else {
-    countEl.innerText = count;
+    countEl.textContent = count;
 
   }
-}
+};
 
 
 
@@ -31,4 +31,4 @@ function save () {
 
   }
   
-}
+};
