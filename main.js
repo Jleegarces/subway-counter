@@ -28,7 +28,9 @@ function save () {
     return saveEl.textContent = 'error';
   } else {
     saveEl.textContent += current;
+    countEl.textContent = 0;
+    count = 0;
 
-  }
+  };
   
 };
