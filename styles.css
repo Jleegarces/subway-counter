@@ -29,6 +29,10 @@ button {
   border-radius: 5px;
 }
 
+p {
+  font-weight: bold;
+}
+
 #increment-btn {
   background: darkred;
   color: white;
